@@ -131,21 +131,30 @@ body{
 /* fin box*/
 
 /* ABOUT*/
+.about{
+    background-color: #ebebea ;
+    width: auto;
+}
 .box{
     background-color: white;
 }
-.about{
-    background-color: #ebebea ;
-}
+.contenedor-about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
 .cajas-about{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 860px) {
     .cajas-about{
+        display: flex;
         flex-direction: column;
+        justify-content: space-around;
     }
 }
 /* FIN ABOUT*/
@@ -192,7 +201,6 @@ font-size: 30px;
     text-align: left;
     width: 220px;
 }
-  
   
 .cards-menciones img {
     width: 100%;
