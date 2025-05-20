@@ -152,7 +152,11 @@ body{
     flex-direction: row;
     justify-content: space-around;
 }
-
+.img-about{
+    height: 125px;
+    width: 200px;
+    object-fit: contain;
+}
 @media (max-width: 860px) {
     .cajas-about{
         display: flex;
