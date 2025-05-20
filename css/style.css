@@ -78,9 +78,12 @@ body{
 /* PRODUCTOS*/
 
 .boxs{
-    background-color: #bcbdbe;
+    background: url('../images/curve.png');
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;
     height: 100%;
-    padding: 15px 0  90px;
+    padding: 35px 0  40px;
 }
 .contenedor-boxs{
     display: flex;
